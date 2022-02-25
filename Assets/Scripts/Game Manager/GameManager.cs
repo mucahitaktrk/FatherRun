@@ -179,7 +179,7 @@ public class GameManager : MonoBehaviour
         {
             fatherRigidbody.velocity = new Vector3(fatherRigidbody.velocity.x, 1.5f, fatherRigidbody.velocity.z);
         } 
-        if (playerBar.value <= playerBar.maxValue / 2 && childsCount == 0)
+        if (playerBar.value < playerBar.maxValue / 2 && childsCount == 0)
         {
             if (playerScript.x2)
             {
@@ -200,7 +200,7 @@ public class GameManager : MonoBehaviour
             }
 
         }
-         if (playerBar.value <= playerBar.maxValue / 2 && (childsCount == 2 || childsCount == 3))
+         if (playerBar.value < playerBar.maxValue / 2 && (childsCount == 2 || childsCount == 3))
         {
             if (playerScript.x6)
             {

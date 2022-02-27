@@ -12,98 +12,60 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49946
+49317
 Successfully changed project path to: /Users/mucahitakturk/FatherRun
 /Users/mucahitakturk/FatherRun
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 74.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 67.09 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path /Applications/Unity/2020.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/mucahitakturk/FatherRun/Assets
 GfxDevice: creating device client; threaded=0
-2022-02-26 22:12:19.846 Unity[6785:103385] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-2022-02-26 22:12:19.846 Unity[6785:103385] Metal devices available: 1
-2022-02-26 22:12:19.846 Unity[6785:103385] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-2022-02-26 22:12:19.846 Unity[6785:103385] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2022-02-27 13:31:15.521 Unity[1337:36699] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2022-02-27 13:31:15.521 Unity[1337:36699] Metal devices available: 1
+2022-02-27 13:31:15.521 Unity[1337:36699] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2022-02-27 13:31:15.521 Unity[1337:36699] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
 Initialize mono
 Mono path[0] = '/Applications/Unity/2020.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56785
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56337
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/2020.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/2020.3.12f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002839 seconds.
+Registered in 0.002867 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 62.85 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 57.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.042 seconds
+- Completed reload, in  5.772 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010167 seconds.
+Registered in 0.015187 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 61.71 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 57.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.680 seconds
+- Completed reload, in  1.504 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/2020.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2022 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.8 MB.
-System memory in use after: 173.9 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2453.
-Total: 2.639488 ms (FindLiveObjects: 0.336661 ms CreateObjectMapping: 0.117188 ms MarkObjects: 2.104345 ms  DeleteObjects: 0.080321 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e6d2f17955e6e64ae735b92145d353') in 0.012689 seconds 
-  Import took 0.016265 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003755 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler after 0.32 seconds
 Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.229 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1993 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.9 MB.
-System memory in use after: 172.0 MB.
+Unloading 2022 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.2 MB.
+System memory in use after: 174.3 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2456.
-Total: 2.498936 ms (FindLiveObjects: 0.233406 ms CreateObjectMapping: 0.074537 ms MarkObjects: 2.159624 ms  DeleteObjects: 0.030190 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2455.
+Total: 2.739467 ms (FindLiveObjects: 0.264815 ms CreateObjectMapping: 0.086164 ms MarkObjects: 2.298668 ms  DeleteObjects: 0.087963 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -117,177 +79,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 228.723842 seconds.
-  path: Assets/familyproject yeni/kalem ve kagıt.fbx
-  artifactKey: Guid(3e51804d620cd31459a718b962b6de7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kalem ve kagıt.fbx using Guid(3e51804d620cd31459a718b962b6de7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f7e0d8bbbc6a903fd358f9c1801dae') in 0.293579 seconds 
-  Import took 0.297727 seconds .
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM3_RayStraight ADD.mat
+  artifactKey: Guid(fdf825eb3a5464a43896eb003acabe52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM3_RayStraight ADD.mat using Guid(fdf825eb3a5464a43896eb003acabe52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869bca5c55d32133975d36c5586d7ca1') in 1.489549 seconds 
+  Import took 1.495069 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/familyproject yeni/kaykay.fbx
-  artifactKey: Guid(2892c75a27b15f446b9c199ec3f50b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kaykay.fbx using Guid(2892c75a27b15f446b9c199ec3f50b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c243d32ee70b298491d083eeb4ccbaf') in 0.152350 seconds 
-  Import took 0.155593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/familyproject yeni/top.fbx
-  artifactKey: Guid(aac31a7a0b3388e49b1ddb8fab049851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/top.fbx using Guid(aac31a7a0b3388e49b1ddb8fab049851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a757e72c608d4efc1c1d1840d2dba8') in 0.021306 seconds 
-  Import took 0.024316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/familyproject yeni/kitap.fbx
-  artifactKey: Guid(f2195d1dcfd58ed4499cdcdd49ace714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kitap.fbx using Guid(f2195d1dcfd58ed4499cdcdd49ace714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b356f2d49734eac2650b3dd913371adf') in 0.017707 seconds 
-  Import took 0.021025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.982759 seconds.
-  path: Assets/familyproject yeni/kalem ve kagıt.fbx
-  artifactKey: Guid(3e51804d620cd31459a718b962b6de7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kalem ve kagıt.fbx using Guid(3e51804d620cd31459a718b962b6de7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fab61096a05c989637db7567b032db') in 0.099717 seconds 
-  Import took 0.104160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.216688 seconds.
-  path: Assets/Materials/lambert1.mat
-  artifactKey: Guid(f2a4df71bbe9a41ef812d8313108b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/lambert1.mat using Guid(f2a4df71bbe9a41ef812d8313108b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19f6f0d2f8aa4e1596359d0ef7a8153') in 0.103518 seconds 
-  Import took 0.107766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.565411 seconds.
-  path: Assets/familyproject yeni/kaykay.spp
-  artifactKey: Guid(4d70c42bfa0610a49a734206a428139e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kaykay.spp using Guid(4d70c42bfa0610a49a734206a428139e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a327b709192d873c63a4e8a3454c512') in 0.133917 seconds 
-  Import took 0.139645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.991395 seconds.
-  path: Assets/familyproject yeni/kalem kagıt.spp
-  artifactKey: Guid(8d08b1e5b66f3244a81683d7266f27c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kalem kagıt.spp using Guid(8d08b1e5b66f3244a81683d7266f27c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef6b4d95c56ab6cd158d5a4c7021084') in 0.005541 seconds 
-  Import took 0.010505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001444 seconds.
-  path: Assets/familyproject yeni/kalem kagıt.spp
-  artifactKey: Guid(8d08b1e5b66f3244a81683d7266f27c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kalem kagıt.spp using Guid(8d08b1e5b66f3244a81683d7266f27c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef6b4d95c56ab6cd158d5a4c7021084') in 0.007110 seconds 
-  Import took 0.015262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.036565 seconds.
-  path: Assets/familyproject yeni/kitap.spp
-  artifactKey: Guid(20c97108b2b8e584ba730eb6bb49cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kitap.spp using Guid(20c97108b2b8e584ba730eb6bb49cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76b8b07216bb72354814ba93bc4effc') in 0.004429 seconds 
-  Import took 0.012347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001884 seconds.
-  path: Assets/familyproject yeni/kitap.spp
-  artifactKey: Guid(20c97108b2b8e584ba730eb6bb49cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kitap.spp using Guid(20c97108b2b8e584ba730eb6bb49cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76b8b07216bb72354814ba93bc4effc') in 0.006559 seconds 
-  Import took 0.017439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.266086 seconds.
-  path: Assets/familyproject yeni/top.spp
-  artifactKey: Guid(195aad12f5e68a34a81fbce66775ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/top.spp using Guid(195aad12f5e68a34a81fbce66775ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e669607b782b2a04d17c505698d8d728') in 0.005161 seconds 
-  Import took 0.011410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002511 seconds.
-  path: Assets/familyproject yeni/top.spp
-  artifactKey: Guid(195aad12f5e68a34a81fbce66775ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/top.spp using Guid(195aad12f5e68a34a81fbce66775ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e669607b782b2a04d17c505698d8d728') in 0.006982 seconds 
-  Import took 0.017361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.190541 seconds.
-  path: Assets/familyproject yeni/kalem ve kagıt.fbx
-  artifactKey: Guid(3e51804d620cd31459a718b962b6de7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kalem ve kagıt.fbx using Guid(3e51804d620cd31459a718b962b6de7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a683202b6b65acfe667b4b6ec612a421') in 0.061987 seconds 
-  Import took 0.066289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/familyproject yeni/kaykay.fbx
-  artifactKey: Guid(2892c75a27b15f446b9c199ec3f50b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kaykay.fbx using Guid(2892c75a27b15f446b9c199ec3f50b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d04602df94e71c70c50d8533d1a6ae') in 0.111133 seconds 
-  Import took 0.114851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/familyproject yeni/top.fbx
-  artifactKey: Guid(aac31a7a0b3388e49b1ddb8fab049851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/top.fbx using Guid(aac31a7a0b3388e49b1ddb8fab049851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7621d27e0f547d2615065b8a17856190') in 0.023443 seconds 
-  Import took 0.027606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/familyproject yeni/kitap.fbx
-  artifactKey: Guid(f2195d1dcfd58ed4499cdcdd49ace714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kitap.fbx using Guid(f2195d1dcfd58ed4499cdcdd49ace714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ecc98d7886543e556f4804310f6e84') in 0.040716 seconds 
-  Import took 0.045789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/familyproject yeni/top.fbx
-  artifactKey: Guid(aac31a7a0b3388e49b1ddb8fab049851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/top.fbx using Guid(aac31a7a0b3388e49b1ddb8fab049851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7621d27e0f547d2615065b8a17856190') in 0.045141 seconds 
-  Import took 0.048786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.977035 seconds.
-  path: Assets/familyproject yeni/top.fbx
-  artifactKey: Guid(aac31a7a0b3388e49b1ddb8fab049851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/top.fbx using Guid(aac31a7a0b3388e49b1ddb8fab049851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ff0067c7b7875064bb15d55d470022') in 0.029396 seconds 
-  Import took 0.034154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.855261 seconds.
-  path: Assets/familyproject yeni/kaykay.fbx
-  artifactKey: Guid(2892c75a27b15f446b9c199ec3f50b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kaykay.fbx using Guid(2892c75a27b15f446b9c199ec3f50b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6421916e6d64ddc7b2cfbdd265119597') in 0.132529 seconds 
-  Import took 0.136514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.167822 seconds.
-  path: Assets/familyproject yeni/kitap.fbx
-  artifactKey: Guid(f2195d1dcfd58ed4499cdcdd49ace714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kitap.fbx using Guid(f2195d1dcfd58ed4499cdcdd49ace714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1a960ad5ae4aee64f608dec198be00') in 0.029292 seconds 
-  Import took 0.033500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.927733 seconds.
-  path: Assets/familyproject yeni/kalem ve kagıt.fbx
-  artifactKey: Guid(3e51804d620cd31459a718b962b6de7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/familyproject yeni/kalem ve kagıt.fbx using Guid(3e51804d620cd31459a718b962b6de7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1b8901a0c57978c22b4f46c5b91a3a') in 0.076810 seconds 
-  Import took 0.081193 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/Scripts/Game Manager/GameManager.cs
+  artifactKey: Guid(8b57249a60e640345bd356f6be58a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game Manager/GameManager.cs using Guid(8b57249a60e640345bd356f6be58a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f48cc52df6cb079c5a13165199e57e9') in 0.288783 seconds 
+  Import took 0.293119 seconds .
 
